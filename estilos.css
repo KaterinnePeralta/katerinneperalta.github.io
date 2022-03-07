@@ -1,0 +1,460 @@
+body {
+	font-family: 'PT Serif', serif;
+}
+header, section, footer {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+header {
+	height: 90px;
+	background-color: #000000;
+	position: sticky;
+	top: 0;
+	z-index: 1000
+}
+#marca {
+	width: 200px;
+	height: 90px;
+	float: left;
+	padding: 0;
+	box-sizing: border-box;
+}
+#marca img {
+width: 100%;
+}
+#btn_principal {
+	width: 567px;
+	height: 90px;
+	float: right;
+}
+#btn_principal ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#btn_principal ul li {
+	display: inline;
+}
+#btn_principal ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	padding: 34px 19px;
+}
+#btn_principal ul li a:hover {
+	background-color: #ff0066;
+}
+#btn_responsive {
+	width: 35px
+	height: 35px;
+	float: left;
+	display: none;
+}
+#btn_responsive a {
+	color: #cc33ff;
+	text-decoration: none;
+	font-size: 25px;
+}
+#Presentacion {
+	height: 300px;
+	background-color: #ff0066;
+}
+#tema1, #tema2 {
+	width: 470px;
+	height: 290px;
+	background-color: #000000;
+	float: left;
+	margin: 5px;
+}
+#tema1 img {
+	width: 100%;
+}
+#tema2 p {
+	padding: 10px;
+	color: #cccccc;
+	line-height: 30px;
+}
+#Nosotros {
+	height: 500px;
+	background-color: #000000;
+}
+#tema3 {
+	width: 960px;
+	height: 240px;
+	background-color: #5c5c8a;
+	margin-bottom: 20px;
+	}
+#tema4 {
+	width: 960px;
+	height: 240px;
+	background-color: #5c5c8a;
+	margin-bottom: 20px;
+}
+#Servicios {
+	height: 500px;
+	background-color: #000000;
+}
+#temacentral1, #temacentral2, #temacentral3, #temacentral4 {
+	width: 230px;
+	height: 390px;
+	background-color: #333333;
+	float: left;
+	margin: 5px;
+}
+#temacentral2 ul li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: #b3b3b3;
+}
+#temacentral4 ul li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 9px;
+	color: #b3b3b3;
+}
+#temacentral2, #temacentral4 {
+	background: -moz-linear-gradient(top, #808080, #000000);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#808080), to(#000000));
+}
+#temacentral5 {
+	width: 960px;
+	height: 100px;
+	background-color: #996600;
+	clear: both;
+}
+#temacentral5 img {
+	width: 100%;
+}
+#Contacto {
+	height: 700px;
+	background-color: gray;
+}
+#tema5 {
+	width: 460px;
+	height: 440px;
+	background-color: #ff33ff;
+	float: right;
+	margin: 10px;
+}
+#tema6 {
+	width: 460px;
+	height: 330px;
+	background-color: #000000;
+	float: right;
+	margin: 10px; 
+}
+#instagram, #facebook {
+	width: 220px;
+	height: 210px;
+	background-color: #00b3b3;
+	float: left;
+	margin: 5px;
+}
+#comunidad1, #comunidad2 {
+	width: 220px;
+	height: 105px;
+	background-color: orange;
+	}
+#instagram h4 {
+	padding-top: 15px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+#facebook h4 {
+	padding-top: 15px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+#whatsapp {
+	width: 450px;
+	height: 100px;
+	background-color: #00b3b3;
+	float: left;
+	margin: 5px;
+}
+#comunidad3 {
+	width: 300px;
+	height: 100px;
+	background-color: orange;
+	float: left;
+	margin-left: 70px;
+}
+#tema7 {
+	width: 460px;
+	height: 330px;
+	background-color: #6600ff;
+	.: relative: margin-bottom;
+	margin: 10px;
+	float: left;
+}
+#tema8 {
+	width: 460px;
+	height: 220px;
+	background-color: #e600e6;
+	.: relative: margin-bottom;
+	margin: 10px;
+	float: left;
+}
+h1 {
+	color: #ffccff;
+	text-align: center;
+	margin: 20px;
+}
+#Galeria {
+	height: 500px;
+	background-color: #ff33ff;
+}
+#gal1 {
+	height: 450px;
+	background-color: #cc33ff;
+}
+#gal2 {
+	height: 450px;
+	background-color: violet;
+}
+#gal3 {
+	height: 450px;
+	background-color: #9900cc;
+}
+#gal4 {
+	height: 450px;
+	background-color: #ff33ff;
+}
+.boton_gal {
+	background-color: #ff99cc;
+	color: white;
+}
+.boton_gal:hover {
+	background-color: #b300b3;
+	color: #000000;
+}
+.card {
+	background-color: #ff33ff;
+}
+.btn-primary {
+	background-color: #ff0066;
+}
+.card-title {
+	color: white;
+}
+
+footer {
+	height: 110px;
+	background-color: #ff0066;
+}
+#foo-ter {
+	color: white;
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+	header, section, footer {
+width: 580px;
+}
+header {
+	height: 170px;
+}
+#Presentacion {
+	height: 310px; /*cambiar*/
+}
+#tema1, #tema2 {
+	width: 280px;
+	height: 280px;
+}
+	#tema1 img {
+		width: 280px;
+		height: 280px;
+}
+#tema2 p {
+	line-height: 19px;
+}
+#Nosotros {
+	height: auto;
+}
+#tema3 {
+	width: 100%;
+	line-height: 16px;
+}
+#tema4 {
+	width: 100%;
+	margin: 0;
+}
+#Servicios {
+	height: 860px;
+}
+#temacentral1, #temacentral2, #temacentral3, #temacentral4 {
+	width: 280px;
+}
+	#temacentral1 img {
+		width: 280px;
+		height: 390px;
+}
+	#temacentral3 img {
+		width: 280px;
+		height: 390px;
+}
+#temacentral2 ul li {
+	padding: 14px;
+}
+#temacentral4 ul li {
+	padding: 13px;
+}
+#temacentral5 {
+	width: 580px;
+}
+#Contacto {
+	height: 1520px;
+}
+#tema5 {
+	width: 560px;
+	height: auto;
+	}
+	#tema6 {
+		width: 97%;
+		height: auto;
+	}
+	#instagram, #facebook, #whatsapp {
+		width: 98%;
+	}
+	#comunidad1, #comunidad2 {
+		width: 30%;
+	}
+	#comunidad3 {
+		width: 53%;
+		margin-left: 125px;
+	}
+	.image_ajusted {
+		height: 100%;
+	}
+#tema7, #tema8 {
+	width: 79%;
+	height: auto;
+	}
+	#image_ajusted {
+		width: 100%;
+	}
+
+	#Galeria {
+		height: auto;
+	}
+	footer {
+	height: auto;
+}
+
+} /* fin media 600 a 1023px */
+
+
+@media all and (max-width: 599px) {
+header, section, footer {
+width: 90%;
+}
+header {
+	height: auto;
+}
+#marca {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#btn_responsive {
+	display: block;
+}
+#btn_principal {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+#btn_principal ul li {
+	display: block;
+}
+#btn_principal ul li a {
+	
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+#Presentacion {
+	height: auto;
+}
+#tema1, #tema2 {
+	width: 98%;
+	height: auto;
+	float: none;
+}
+#Nosotros {
+	height: auto;
+}
+#tema3 {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+#tema4 {
+	width: 100%;
+	height: auto;
+}
+#Servicios {
+	height: auto;
+}
+#temacentral1, #temacentral2, #temacentral3, #temacentral4 {
+	width: 98%;
+	height: auto;
+}
+#temacentral1 img {
+	width: 100%;
+}
+#temacentral3 img {
+	width: 100%;
+}
+#temacentral5 {
+	width: 100%;
+	height: auto;
+}
+#Contacto {
+	height: 1520px;
+}
+#tema5 {
+	width: 95%;
+	height: auto;
+}
+#tema6 {
+	width: 96%;
+	height: auto;
+}
+#instagram, #facebook {
+	width: 97%;
+
+}
+#whatsapp {
+	width: 97%;
+}
+#comunidad3 {
+	margin-left: 45px;
+}
+#tema7, #tema8 {
+	width: 95%;
+	height: auto;
+}
+.image_ajusted {
+	width: 100%;
+}
+
+#Galeria {
+	height: auto;
+}
+footer {
+	height: auto;
+}
+
+} /* fin media -599px */
+
+h2, h3, h4, p {
+	color: #000000;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	padding-top: 3px;
+}
